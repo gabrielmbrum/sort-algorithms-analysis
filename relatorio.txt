@@ -62,3 +62,35 @@ with n[i] = 1000000
 sorted: 0.003889s
 unsorted: 622.974345s
 randomized: 310.491757s
+
+###############################
+QUICK SORT DATA
+with n[i] = 10
+sorted: 0.000002s
+unsorted: 0.000001s
+randomized: 0.000001s
+
+with n[i] = 100
+sorted: 0.000008s
+unsorted: 0.000007s
+randomized: 0.000011s
+
+with n[i] = 1000
+sorted: 0.000096s
+unsorted: 0.000083s
+randomized: 0.000142s
+
+with n[i] = 10000
+sorted: 0.001023s
+unsorted: 0.001013s
+randomized: 0.001793s
+
+with n[i] = 100000
+sorted: 0.011882s
+unsorted: 0.007543s
+randomized: 0.008538s
+
+with n[i] = 1000000
+sorted: 0.050379s
+unsorted: 0.049965s
+randomized: 0.088704s
