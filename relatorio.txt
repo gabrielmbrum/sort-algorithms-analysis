@@ -1,0 +1,33 @@
+BUBBLE SORT DATA
+
+with n[i] = 10
+sorted: 0.000001s
+unsorted: 0.000001s
+randomized: 0.000000s
+
+with n[i] = 100
+sorted: 0.000002s
+unsorted: 0.000039s
+randomized: 0.000002s
+
+with n[i] = 1000
+sorted: 0.000011s
+unsorted: 0.004009s
+randomized: 0.000011s
+
+with n[i] = 10000
+sorted: 0.000101s
+unsorted: 0.094771s
+randomized: 0.000023s
+
+with n[i] = 100000
+sorted: 0.000241s
+unsorted: 8.456948s
+randomized: 0.000230s
+
+with n[i] = 1000000
+sorted: 0.002359s
+unsorted: 854.783995s
+randomized: 0.002264s
+
+#################################
