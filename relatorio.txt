@@ -31,3 +31,34 @@ unsorted: 854.783995s
 randomized: 0.002264s
 
 #################################
+INSERTION SORT DATA
+
+with n[i] = 10
+sorted: 0.000002s
+unsorted: 0.000001s
+randomized: 0.000001s
+
+with n[i] = 100
+sorted: 0.000002s
+unsorted: 0.000031s
+randomized: 0.000018s
+
+with n[i] = 1000
+sorted: 0.000017s
+unsorted: 0.002786s
+randomized: 0.001381s
+
+with n[i] = 10000
+sorted: 0.000186s
+unsorted: 0.075724s
+randomized: 0.030382s
+
+with n[i] = 100000
+sorted: 0.000381s
+unsorted: 6.010291s
+randomized: 3.033963s
+
+with n[i] = 1000000
+sorted: 0.003889s
+unsorted: 622.974345s
+randomized: 310.491757s
