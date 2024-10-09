@@ -11,6 +11,7 @@ it was a activity of Analysis and Algorithm Project =)
   <li>insertionsort</li>
   <li>quicksort</li>
   <li>heapsort</li>
+  <li>countingsort</li>
 </ul>
   
 ## graphs
