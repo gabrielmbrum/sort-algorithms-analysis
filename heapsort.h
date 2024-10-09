@@ -1,16 +1,23 @@
 #include <stdio.h>
+#include "swap.h"
 
-/*
- * int parent(i) 
- * 	return i/2;
- *
- * int left(i)
- * 	return 2i;
- *
- * int right(i) 
- * 	return 2i + 1
- * 	
-*/
+typedef struct {
+    int *array;  // Ponteiro para o array de inteiros
+    int size;    // Tamanho atual do heap
+    int length;  // Comprimento total do array
+} heap;
+
+int parent(int i) {
+ 	return (i/2);
+}
+
+int left(int i) {
+ 	return 2*i;
+}
+
+int right(int i) { 
+	return (2*i + 1);
+}
 
 void max_heapfy (heap *a, int i) {
 	int l = left(i);
@@ -21,7 +28,7 @@ void max_heapfy (heap *a, int i) {
 		maior = l;
 
 	if (r <= a->size && a->array[r] > a->array[maior])
-		maior = r
+		maior = r;
 	
 	if (maior != i) {
 		swap(&a->array[i], &a->array[maior]);
@@ -30,17 +37,17 @@ void max_heapfy (heap *a, int i) {
 }
 
 void build_max_heap (heap *a) {
-	a->size = a->lenght;
-	for (int i = (a->lenght)/2; i>0; i--)
+	a->size = a->length;
+	for (int i = (a->length)/2; i>=1; i--)
 		max_heapfy(a, i);
 }
 
-void heapsort (int *a) {
+void heapsort (heap *a) {
 	build_max_heap(a);
-	for (int i = a->lenght; i > 1;  i--) {
+	for (int i = a->length; i > 1;  i--) {
 		swap(&a->array[1], &a->array[i]);
 		a->size--;
-		max-heapfy(a, 1);
+		max_heapfy(a, 1);
 	}
 }
 

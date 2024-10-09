@@ -94,3 +94,35 @@ with n[i] = 1000000
 sorted: 0.050379s
 unsorted: 0.049965s
 randomized: 0.088704s
+
+######################################
+HEAP SORT DATA
+with n[i] = 10
+sorted: 0.000006s
+unsorted: 0.000004s
+randomized: 0.000003s
+
+with n[i] = 100
+sorted: 0.000072s
+unsorted: 0.000072s
+randomized: 0.000067s
+
+with n[i] = 1000
+sorted: 0.000872s
+unsorted: 0.000754s
+randomized: 0.000796s
+
+with n[i] = 10000
+sorted: 0.010006s
+unsorted: 0.008176s
+randomized: 0.004382s
+
+with n[i] = 100000
+sorted: 0.028204s
+unsorted: 0.026991s
+randomized: 0.029216s
+
+with n[i] = 1000000
+sorted: 0.333758s
+unsorted: 0.327818s
+randomized: 0.364266s
