@@ -126,3 +126,35 @@ with n[i] = 1000000
 sorted: 0.333758s
 unsorted: 0.327818s
 randomized: 0.364266s
+
+###################################
+COUNTING SORT DATA
+with n[i] = 10
+sorted: 0.000002s
+unsorted: 0.000001s
+randomized: 0.000001s
+
+with n[i] = 100
+sorted: 0.000007s
+unsorted: 0.000009s
+randomized: 0.000006s
+
+with n[i] = 1000
+sorted: 0.000100s
+unsorted: 0.000063s
+randomized: 0.000044s
+
+with n[i] = 10000
+sorted: 0.000307s
+unsorted: 0.000322s
+randomized: 0.000450s
+
+with n[i] = 100000
+sorted: 0.003739s
+unsorted: 0.003275s
+randomized: 0.003765s
+
+with n[i] = 1000000
+sorted: 0.012899s
+unsorted: 0.011660s
+randomized: 0.039208s

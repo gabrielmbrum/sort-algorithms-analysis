@@ -5,6 +5,7 @@
 // #include "insertionsort.h"
 // #include "quicksort.h"
 // #include "heapsort.h"
+#include "countingsort.h"
 
 int main () {
 	clock_t  sorted_start, sorted_end, unsorted_start, unsorted_end, randomized_start, randomized_end;
@@ -24,28 +25,26 @@ int main () {
 		for (int j = 0; j < n[i]; j++) {
 			sorted[j] = j;
 			unsorted[j] = n[i]-j;
-			randomized[j] = rand();
+			randomized[j] = rand() % n[i];
 		}
 
 		sorted_start = clock();
 		for (int k = 0; k < 3; k++) {
-			aux = bubblesort(sorted, n[i]);
+			aux = countingsort(sorted, n[i], n[i]);
 		}
 		sorted_end = clock();
 
 		unsorted_start = clock();
 		for (int k = 0; k < 3; k++) {
-			aux = bubblesort(unsorted, n[i]);
+			aux = countingsort(unsorted, n[i], n[i]);
 		}
 		unsorted_end = clock();
 	
 		randomized_start = clock();
 		for (int k = 0; k < 3; k++) {
-			aux = bubblesort(randomized, n[i]);
+			aux = countingsort(randomized, n[i], n[i]);
 		}
 		randomized_end = clock();	
-		
-
 
 		printf("\nwith n[i] = %d\nsorted: %fs\nunsorted: %fs\nrandomized: %fs\n",n[i], (double)(sorted_end - sorted_start)/(CLOCKS_PER_SEC*3), (double)(unsorted_end - unsorted_start)/(CLOCKS_PER_SEC*3) ,(double)(randomized_end - randomized_start)/(CLOCKS_PER_SEC*3));
 	}
