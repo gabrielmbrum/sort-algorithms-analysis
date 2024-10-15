@@ -7,11 +7,16 @@ it was a activity of Analysis and Algorithm Project =)
 
 ## which algorithms were implemented?
 <ul>
-  <li>bubblesort</li>
-  <li>insertionsort</li>
-  <li>quicksort</li>
-  <li>heapsort</li>
-  <li>countingsort</li>
+  <li>bubble</li>
+  <li>insertion</li>
+  <li>quick</li>
+  <li>heap</li>
+  <li>counting</li>
+  <li>selection</li>
+  <li>shell</li>
+  <li>bucket</li>
+  <li>merge</li>
+  <li>radix</li>
 </ul>
   
 ## graphs
