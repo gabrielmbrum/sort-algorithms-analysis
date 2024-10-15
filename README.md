@@ -1,5 +1,5 @@
-:construction: under construction :construction:
-
+:construction: under construction :construction: <br><br>
+made w/ my friend <a href="https://github.com/brenobernal40"><strong>breno bernal</strong></a> !!
 # sort algorithms analysis
 this repo contains the main sort algorithms implemented in C.
 beyond that, it has a algorithm complexity analysis (w/ some graphs to help the visualization).
