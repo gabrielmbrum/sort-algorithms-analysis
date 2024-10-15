@@ -1,4 +1,4 @@
-:triangular_flag_on_post: under construction :triangular_flag_on_post:
+:construction: under construction :construction:
 
 # sort algorithms analysis
 this repo contains the main sort algorithms implemented in C.
@@ -11,6 +11,7 @@ it was a activity of Analysis and Algorithm Project =)
   <li>insertionsort</li>
   <li>quicksort</li>
   <li>heapsort</li>
+  <li>countingsort</li>
 </ul>
   
 ## graphs
