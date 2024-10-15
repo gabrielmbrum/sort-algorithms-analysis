@@ -62,8 +62,43 @@ with n[i] = 1000000
 sorted: 0.001853s
 unsorted: 907.423855s
 randomized: 440.021067s
+
+###############################
+SELECTION SORT DATA
+
+with n[i] = 10
+sorted: 0.000004s
+unsorted: 0.000003s
+randomized: 0.000003s
+
+with n[i] = 100
+sorted: 0.000037s
+unsorted: 0.000061s
+randomized: 0.000071s
+
+with n[i] = 1000
+sorted: 0.002236s
+unsorted: 0.002165s
+randomized: 0.001727s
+
+with n[i] = 10000
+sorted: 0.038866s
+unsorted: 0.038482s
+randomized: 0.039493s
+
+with n[i] = 100000
+sorted: 3.490388s
+unsorted: 3.491498s
+randomized: 3.604798s
+
+with n[i] = 1000000
+sorted: 353.801694s
+unsorted: 354.710303s
+randomized: 350.356539s
+
 ###############################
 QUICK SORT DATA
+
 with n[i] = 10
 sorted: 0.000001s
 unsorted: 0.000001s
@@ -96,6 +131,7 @@ randomized: 0.056918s
 
 ######################################
 HEAP SORT DATA
+
 with n[i] = 10
 sorted: 0.000001s
 unsorted: 0.000001s
@@ -128,6 +164,7 @@ randomized: 0.246424s
 
 ###################################
 COUNTING SORT DATA
+
 with n[i] = 10
 sorted: 0.000001s
 unsorted: 0.000000s
@@ -158,9 +195,9 @@ sorted: 0.008453s
 unsorted: 0.007741s
 randomized: 0.017655s
 
-
 ############################################
 MERGE SORT DATA
+
 with n[i] = 10
 sorted: 0.000001s
 unsorted: 0.000001s
@@ -193,6 +230,7 @@ randomized: 0.092154s
 
 ########################################
 SHELL SORT DATA
+
 with n[i] = 10
 sorted: 0.000000s
 unsorted: 0.000000s
@@ -222,8 +260,10 @@ with n[i] = 1000000
 sorted: 0.019737s
 unsorted: 0.021365s
 randomized: 0.085269s
+
 ####################################
 RADIX SORT DATA
+
 with n[i] = 10
 sorted: 0.000001s
 unsorted: 0.000000s
@@ -253,8 +293,10 @@ with n[i] = 1000000
 sorted: 0.042823s
 unsorted: 0.047688s
 randomized: 0.042837s
+
 ##################################
 BUCKET SORT DATA
+
 with n[i] = 10
 sorted: 0.000004s
 unsorted: 0.000003s
