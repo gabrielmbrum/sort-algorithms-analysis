@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "swap.h"
 
 int* bubblesort (int *a, int n) {

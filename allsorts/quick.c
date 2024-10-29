@@ -1,5 +1,5 @@
-#include <stdio.h>
 #include "swap.h"
+#include "quick.h"
 
 int partition(int *a, int left, int right) {
     int pivot = a[(left + right) / 2];
@@ -38,4 +38,3 @@ int *quicksort(int *a, int n) {
     quick(a, 0, n - 1);
     return a;
 }
-

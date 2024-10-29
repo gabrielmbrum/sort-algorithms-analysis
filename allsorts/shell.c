@@ -1,6 +1,3 @@
-#include <stdio.h>
-#include "ordena.h"
-
 int *shellSort(int *vet, int size) {
     int i, j, value;
  

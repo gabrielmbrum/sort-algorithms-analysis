@@ -1,4 +1,4 @@
-#include <stdlib.h>
+#include "merge.h"
 
 int *mergeSort(int *vet, int inicio, int fim){
 
@@ -34,23 +34,4 @@ int *mergeSort(int *vet, int inicio, int fim){
             j++;
         }
         k++;
-    }
-
-     while (i < meio-inicio+1) {
-        vet[k] = esquerda[i];
-        i++;
-        k++;
-    }
-
-    while (j < fim-meio) {
-        vet[k] = direita[j];
-        j++;
-        k++;
-    }
-
-    free(esquerda);
-    free(direita);
-    return vet;
-   }
-   
-}
+    

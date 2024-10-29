@@ -1,6 +1,4 @@
-#include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 
 int* countingsort(int arr[], int n, int k) {
     int *output, *count;

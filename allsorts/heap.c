@@ -1,10 +1,5 @@
 #include "swap.h"
-
-typedef struct {
-    int *array;  // Ponteiro para o array de inteiros
-    int size;    // Tamanho atual do heap
-    int length;  // Comprimento total do array
-} heap;
+#include "heap.h"
 
 int parent(int i) {
  	return (i/2);
@@ -49,4 +44,3 @@ void heapsort (heap *a) {
 		max_heapfy(a, 1);
 	}
 }
-

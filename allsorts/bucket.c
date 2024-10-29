@@ -1,7 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-
-int *shellSort (int *vet, int size);
+#include "bucket.h"
 
 int *bucketSort(int *vet, int size) {
     typedef struct {

@@ -1,7 +1,5 @@
-#include "ordena.h"
-#include <stdio.h>
 #include <stdlib.h>
-
+#include "radix.h"
 
 int getMax(int vet[], int n) {
     int mx = vet[0];
@@ -45,4 +43,3 @@ int *radixSort(int *vet, int size) {
     }
     return vet;
 }
-

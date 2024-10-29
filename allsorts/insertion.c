@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 int* insertionsort (int *a, int n) {
 	int i, j, k, x;
 	for (i = 1; i<n; i++) {
