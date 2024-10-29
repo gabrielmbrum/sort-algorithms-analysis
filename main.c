@@ -104,8 +104,6 @@ int* bubblesort (int *a, int n) {
 		for (j = 0; j < n-1-i; j++) {
 			if (a[j] > a[j+1])
 				swap(&a[j], &a[j+1]);
-			else
-				break;
 		}
 	}
 
